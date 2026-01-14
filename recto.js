@@ -1,0 +1,56 @@
+{{Recto}}
+
+<script>
+MathJax.config.tex['macros'] = {
+		R: "\\mathbb{R}",
+		N: "\\mathbb{N}",
+		Z: "\\mathbb{Z}",
+		C: "\\mathbb{C}",
+		Q: "\\mathbb{Q}",
+		vec: ['{\\overrightarrow{#1}}', 1], 
+		div: "\\operatorname{div}",
+		rot: "\\vec{\\operatorname{rot}}",
+		grad: "\\vec{\\operatorname{grad}}",
+		laplacien: "\\Delta",
+		laplacienvec: "\\vec\\Delta",
+		dalembertien: "\\Box",
+		surfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
+		volint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
+    osurfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\!\\!\\!\\!\\!\\!\\!\\mkern-2.5mu\\bigcirc\\,}", 1],
+		unit: ["\\mathrm{#1}", 1],
+		quantity: ["#1~\\mathrm{#2}", 2],
+		Ker: "\\operatorname{Ker}",
+		Im: "\\operatorname{Im}",
+		Re: "\\operatorname{Re}",
+		continuous: ["\\mathcal{C}^{#1}", 1],
+		der: ["\\frac{d {#1}}{d {#2}}", 2],
+		pder: ["\\frac{\\partial {#1}}{\\partial {#2}}", 2],
+		dern: ["\\frac{d^{#3} #1}{d #2^{#3}}", 3],
+		pdern: ["\\frac{\\partial^{#3} #1}{\\partial #2^{#3}}", 3],
+		cvgto: "\\displaystyle\\mathop{\\longrightarrow}",
+		abs: ["\\left| #1 \\right|", 1],
+		norm: ["\\left|\\left| #1 \\right|\\right|", 1],
+		opnorm: ["\\left|\\left|\\left| #1 \\right|\\right|\\right|", 1],
+		K: "\\mathbb{K}",
+    Sp: "\\operatorname{Sp}",
+    Rac: "\\operatorname{Rac}",
+    Tr: "\\operatorname{Tr}",
+    rg: "\\operatorname{rg}",
+    Mat: "\\operatorname{Mat}",
+    Id: "\\operatorname{Id}",
+    Vect: "\\operatorname{Vect}",
+    Diag: "\\operatorname{Diag}",
+    Fr: "\\operatorname{Fr}",
+		intint: ["[\\![#1]\\!]", 1],
+		system: ["\\left\\{\\begin{array}{l} #1 \\end{array}\\right.", 1],
+		underannotation: ["\\underset{\\underset {\\clap{#2}}\\uparrow}{#1}", 2],
+		u: "\\underline",
+		cvec: ["\\vec{\\underline{#1}}", 1],
+		func: ["\\left(\\begin{array}{r l}\\displaystyle#1 &\\displaystyle\\rightarrow #2 \\\\ \\displaystyle #3 &\\displaystyle\\mapsto #4 \\end{array}\\right)", 4],
+};
+if (typeof is_already_run == 'undefined') {
+  is_already_run = true
+  MathJax.startup.getComponents();
+}
+</script>
+
