@@ -18,6 +18,7 @@ MathJax.config.tex['macros'] = {
 		laplacien: "\\Delta",
 		laplacienvec: "\\vec\\Delta",
 		dalembertien: "\\Box",
+		sinc: "\\operatorname{sinc}",
 		surfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
 		volint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
     	osurfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\!\\!\\!\\!\\!\\!\\!\\mkern-2.5mu\\bigcirc\\,}", 1],
