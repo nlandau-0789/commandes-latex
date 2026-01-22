@@ -36,6 +36,7 @@ MathJax.config.tex['macros'] = {
 		abs: ["\\left| #1 \\right|", 1],
 		norm: ["\\left|\\left| #1 \\right|\\right|", 1],
 		opnorm: ["\\left|\\left|\\left| #1 \\right|\\right|\\right|", 1],
+		floor: ["\\lfloor #1 \\rfloor", 1],
     	Sp: "\\operatorname{Sp}",
     	Rac: "\\operatorname{Rac}",
     	Tr: "\\operatorname{Tr}",
