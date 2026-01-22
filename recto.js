@@ -1,4 +1,4 @@
-{ { Recto } }
+{{ Recto }}
 
 <script>
 	MathJax.config.tex['macros'] = {
