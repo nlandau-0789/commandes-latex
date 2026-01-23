@@ -49,6 +49,7 @@
 		Fr: "\\operatorname{Fr}",
 		Card: "\\operatorname{Card}",
 		Supp: "\\operatorname{Supp}",
+		Stab: "\\operatorname{Stab}",
 		ord: "\\operatorname{ord}",
 		intint: ["[\\![#1]\\!]", 1],
 		system: ["\\left\\{\\begin{array}{l} #1 \\end{array}\\right.", 1],
