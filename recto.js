@@ -55,6 +55,7 @@
 		system: ["\\left\\{\\begin{array}{l} #1 \\end{array}\\right.", 1],
 		underannotation: ["\\underset{\\underset {\\clap{#2}}\\uparrow}{#1}", 2],
 		overannotation: ["\\overset{\\overset {\\clap{#2}}\\downarrow}{#1}", 2],
+		cmod: ["~[{#1}]", 1],
 		cvec: ["\\vec{\\underline{#1}}", 1],
 		func: ["\\left(\\begin{array}{r l}\\displaystyle#1 &\\displaystyle\\rightarrow #2 \\\\ \\displaystyle #3 &\\displaystyle\\mapsto #4 \\end{array}\\right)", 4],
 	};
