@@ -38,7 +38,7 @@
 		norm: ["\\left|\\left| #1 \\right|\\right|", 1],
 		opnorm: ["\\left|\\left|\\left| #1 \\right|\\right|\\right|", 1],
 		floor: ["\\left\\lfloor #1 \\right\\rfloor", 1],
-		ceil: ["\\lceil #1 \\rceil", 1],
+		ceil: ["\\left\\lceil #1 \\right\\rceil", 1],
 		Sp: "\\operatorname{Sp}",
 		Rac: "\\operatorname{Rac}",
 		Tr: "\\operatorname{Tr}",
