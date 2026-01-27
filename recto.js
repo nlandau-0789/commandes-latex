@@ -9,6 +9,7 @@
 		Q: "\\mathbb{Q}",
 		K: "\\mathbb{K}",
 		L: "\\mathbb{L}",
+		F: "\\mathbb{F}",
 		O: "\\mathcal{O}",
 		u: "\\underline",
 		vec: ['{\\overrightarrow{#1}}', 1],
