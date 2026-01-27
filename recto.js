@@ -52,6 +52,7 @@
 		Supp: "\\operatorname{Supp}",
 		Stab: "\\operatorname{Stab}",
 		ord: "\\operatorname{ord}",
+		Div: "\\operatorname{Div}",
 		intint: ["[\\![#1]\\!]", 1],
 		system: ["\\left\\{\\begin{array}{l} #1 \\end{array}\\right.", 1],
 		underannotation: ["\\underset{\\underset {\\clap{#2}}\\uparrow}{#1}", 2],
