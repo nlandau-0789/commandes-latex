@@ -28,6 +28,8 @@
 		Ker: "\\operatorname{Ker}",
 		Im: "\\operatorname{Im}",
 		Re: "\\operatorname{Re}",
+		ch: "\\operatorname{ch}",
+		sh: "\\operatorname{sh}",
 		continuous: ["\\mathcal{C}^{#1}", 1],
 		der: ["\\frac{d {#1}}{d {#2}}", 2],
 		pder: ["\\frac{\\partial {#1}}{\\partial {#2}}", 2],
