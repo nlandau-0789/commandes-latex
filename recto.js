@@ -2,6 +2,7 @@
 
 <script>
 	MathJax.config.tex['macros'] = {
+		ds: "\\displaystyle",
 		R: "\\mathbb{R}",
 		N: "\\mathbb{N}",
 		Z: "\\mathbb{Z}",
@@ -31,10 +32,10 @@
 		ch: "\\operatorname{ch}",
 		sh: "\\operatorname{sh}",
 		continuous: ["\\mathcal{C}^{#1}", 1],
-		der: ["\\frac{d {#1}}{d {#2}}", 2],
-		pder: ["\\frac{\\partial {#1}}{\\partial {#2}}", 2],
-		dern: ["\\frac{d ^ {#3 } #1}{d #2^{#3}}", 3],
-		pdern: ["\\frac{\\partial^{#3} #1}{\\partial #2^{#3}}", 3],
+		der: ["\\displaystyle\\frac{d {#1}}{d {#2}}", 2],
+		pder: ["\\displaystyle\\frac{\\partial {#1}}{\\partial {#2}}", 2],
+		dern: ["\\displaystyle\\frac{d ^ {#3 } #1}{d #2^{#3}}", 3],
+		pdern: ["\\displaystyle\\frac{\\partial^{#3} #1}{\\partial #2^{#3}}", 3],
 		cvgto: "\\displaystyle\\mathop{\\longrightarrow}",
 		notcvgto: "\\displaystyle\\mathop{\\longrightarrow\\!\\!\\!\\!\\!\\!\\!\\!\\!\\times~~}",
 		abs: ["\\left| #1 \\right|", 1],
