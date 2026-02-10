@@ -26,6 +26,7 @@
 		osurfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\!\\!\\!\\!\\!\\!\\!\\mkern-2.5mu\\bigcirc\\,}", 1],
 		unit: ["\\mathrm{#1}", 1],
 		quantity: ["#1~\\mathrm{#2}", 2],
+		reac: "\\leftrightharpoons",
 		Ker: "\\operatorname{Ker}",
 		Im: "\\operatorname{Im}",
 		Re: "\\operatorname{Re}",
