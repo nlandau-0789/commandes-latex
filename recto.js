@@ -38,6 +38,7 @@
 		pdern: ["\\displaystyle\\frac{\\partial^{#3} #1}{\\partial #2^{#3}}", 3],
 		cvgto: "\\displaystyle\\mathop{\\longrightarrow}",
 		notcvgto: "\\displaystyle\\mathop{\\longrightarrow\\!\\!\\!\\!\\!\\!\\!\\!\\!\\times~~}",
+		indep: "\\perp\\!\\!\\perp",
 		abs: ["\\left| #1 \\right|", 1],
 		norm: ["\\left|\\left| #1 \\right|\\right|", 1],
 		opnorm: ["\\left|\\left|\\left| #1 \\right|\\right|\\right|", 1],
