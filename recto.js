@@ -13,6 +13,7 @@
 		F: "\\mathbb{F}",
 		P: "\\mathbb{P}",
 		E: "\\mathbb{E}",
+		V: "\\mathbb{V}",
 		O: "\\mathcal{O}",
 		u: "\\underline",
 		vec: ['{\\overrightarrow{#1}}', 1],
