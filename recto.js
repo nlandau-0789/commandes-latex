@@ -11,6 +11,7 @@
 		K: "\\mathbb{K}",
 		L: "\\mathbb{L}",
 		F: "\\mathbb{F}",
+		P: "\\mathbb{P}",
 		O: "\\mathcal{O}",
 		u: "\\underline",
 		vec: ['{\\overrightarrow{#1}}', 1],
