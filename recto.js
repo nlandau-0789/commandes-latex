@@ -15,6 +15,8 @@
 		E: "\\mathbb{E}",
 		V: "\\mathbb{V}",
 		O: "\\mathcal{O}",
+		Snp: "S_n^{+}",
+		Snpp: "S_n^{++}",
 		u: "\\underline",
 		vec: ['{\\overrightarrow{#1}}', 1],
 		div: "\\operatorname{div}",
