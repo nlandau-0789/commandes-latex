@@ -29,6 +29,7 @@
 		surfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
 		volint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{#1}\\,}", 1],
 		osurfint: ["{\\displaystyle\\int\\!\\!\\!\\!\\!\\int_{#1}\\!\\!\\!\\!\\!\\!\\!\\mkern-2.5mu\\bigcirc\\,}", 1],
+		operp: "\\mathop{\\ominus\\mkern-4.4pt\\overset{\\overset{\\tiny\\mkern-.7pt\\mid\\mkern-2pt\\mid\\mkern-2pt\\mid\\mkern-2pt\\mid\\mkern-2pt\\mid}{}}{}~~}",
 		unit: ["\\mathrm{#1}", 1],
 		quantity: ["#1~\\mathrm{#2}", 2],
 		reac: "\\leftrightharpoons",
