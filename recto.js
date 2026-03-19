@@ -74,6 +74,7 @@
 		cvec: ["\\vec{\\underline{#1}}", 1],
 		func: ["\\left(\\begin{array}{r l}\\displaystyle#1 &\\displaystyle\\rightarrow #2 \\\\ \\displaystyle #3 &\\displaystyle\\mapsto #4 \\end{array}\\right)", 4],
 		accum: ["{#1}_1, \\ldots, {#1}_{#2}", 2],
+		accums: ["{#1}_{#2}, \\ldots, {#1}_{#3}", 3],
 		accumsep: ["{#1}_1{#3}\\ldots{#3}{#1}_{#2}", 3],
 	};
 	if (typeof is_already_run == 'undefined') {
